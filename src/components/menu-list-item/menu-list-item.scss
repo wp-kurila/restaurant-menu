@@ -12,7 +12,16 @@
     &__title {
         font-size: 22px;
         margin-bottom: 20px;
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        & img {
+            height: 20px;
+            position: absolute;
+            right: 0;
+        }
     }
     &__img {
         width: calc(100% + 40px);
